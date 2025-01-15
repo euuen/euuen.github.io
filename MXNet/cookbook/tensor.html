@@ -23,7 +23,8 @@ x = ones((2, 3, 4))
                 <p style="color: blueviolet;">改变张量的维度</p>
                 <code>
                     <pre>
-
+x.reshape(2, 3, 4)
+x.reshape(-1, 3)
                     </pre>
                 </code>
             </li>
@@ -31,12 +32,30 @@ x = ones((2, 3, 4))
                 <p style="color: blueviolet;">张量的属性</p>
                 <code>
                     <pre>
-
+x.shape
+x.size
                     </pre>
                 </code>
             </li>
             <li>
                 <p style="color: blueviolet;">张量的运算</p>
+                <code>
+                    <pre>
+x+y
+x-y
+x*y
+x/y
+x**y
+linalg.norm(x)
+exp(x)
+x.sum()
+x.mean()
+concatenate([x, y], axis=0)
+
+x==y
+x>=y
+                    </pre>
+                </code>
             </li>
         </ul>
     </body>
