@@ -57,6 +57,18 @@ x>=y
                     </pre>
                 </code>
             </li>
+            <li>
+                <p style="color: blueviolet;">张量的求导(自动求导)</p>
+                <code>
+                    <pre>
+x.attach_grad()
+with autograd.record():
+    y = f(x)    // 对x进行运算
+y.backward()
+x.grad
+                    </pre>
+                </code>
+            </li>
         </ul>
     </body>
 </html>
