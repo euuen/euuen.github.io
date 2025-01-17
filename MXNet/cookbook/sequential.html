@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <main>
+            <p>关于Sequential的cookbook</p>
+            <code>
+                <pre>
+// 输入数据
+batch_size = 10
+dataset = gluon.data.ArrayDataset(features, labels)
+data_iter = gluon.data.DataLoader(dataset, batch_size, shuffle=bool)
+
+// 定义网络
+net = nn.Sequential()
+net.add(nn.Dense(1))
+net.initialize(init.Normal(sigma=0.01))
+
+// 损失函数
+loss = gluon.L2Loss()   //均方误差
+
+// 训练器
+trainer = gluon.Trainer(net.collect_params(), "sgd", {"learning_rate" : 0.03})
+
+// 训练循环
+for epoch in range(num_epochs):
+    for X, y in data_iter:
+        with autograd.record():
+            l = loss(net(X), y)
+        l.backward()
+        trainer.step(batch_size)
+    l = loss(net(features), labels)
+    print(l.mean().asnumpy())
+
+w = net[0].weight.data()
+b = net[0].bais.data()
+                </pre>
+            </code>
+        </main>
+    </body>
+</html>
