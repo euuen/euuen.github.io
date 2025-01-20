@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+            .highlight {
+                font-family: Consolas, monospace;
+                background-color: #f1f1f1;
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <ul>
+                <li>
+                    <h2 style="color: blueviolet;">Shader(着色器)</h2>
+                    <code>
+                        <pre class="highlight">
+GLunit handle = glCreateShader(GL_VERTEX_SHADER);
+// 其他着色器
+<ul>
+    <li>GL_FRAGMENT_SHADER 片段着色器</li>
+</ul>
+glShaderSource(handle, 1, &source, NULL);
+glCompileShader(handle);
+                        </pre>
+                    </code>
+                </li>
+                <li>
+                    <h2 style="color: blueviolet;">Program(管线)</h2>
+                    <code>
+                        <pre class="highlight">
+GLunit handle = glCreateProgram();
+glAttachShader(handle, shader);
+glLinkProgram(handle);
+
+// 启用管线
+glUseProgram(handle);
+                        </pre>
+                    </code>
+                </li>
+                <li>
+                    <h2 style="color: blueviolet;">OpenGL Debug</h2>
+                    <code>
+                        <pre class="highlight">
+int chWritten = 0;      //目前不知道这个变量的意义，反正OpenGL with C++那本书是这么写的
+glGetShaderiv(shader_handle, GL_INFO_LOG_LENGTH, &len);
+glGetShaderInfoLog(shader_handle, len, &chWritten, log);
+
+glGetProgramiv(program_handle, GL_INFO_LOG_LENGTH, &len);
+glGetProgramInfoLog(program_handle, len, &chWirrten, log);
+                        </pre>
+                    </code>
+                </li>
+            </ul>
+        <!-- 留白, 方便Live Server查看实时渲染的html -->
+        <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+        </main>
+    </body>
+</html> 

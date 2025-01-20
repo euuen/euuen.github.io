@@ -3,12 +3,20 @@
     <head>
         <title>cookbook for jme</title>
         <meta charset="utf-8">
+        <style>
+            .highlight {
+                font-family: Consolas, monospace;
+                background-color: #f1f1f1;
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
     </head>
     <body>
         <main>
             <h1 style="color: blue;">获取事件</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 inputManager.addMapping(msg, new ...Trigger(...input...));
 inputManager.addListener(new ...Listener, msg);
 
@@ -20,7 +28,7 @@ TouchListner
             </code>
             <h1 style="color: blue;">GUI</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 Picture pic = new Picture("picture");
 
 // 设置图片
@@ -41,13 +49,13 @@ guiNode.attachChild(pic);
             </code>
             <h1 style="color: blue;">对Spactial的操作</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 spactial.rotate(xAngle, yAngle, zAngle);
                 </pre>
             </code>
             <h1 style="color: blue;">相机操作</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 // 获得屏幕分辨率
 float width = cam.getWidth();
 float height = cam.getHeight();
@@ -63,7 +71,7 @@ cam.setParallelProjection(true)
             </code>
             <h1 style="color: blue;">材质(Material)</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 Texture tex = assetManager.loadTexture("Interface/Gui/pic.png");
 
 //Unshaded
@@ -73,7 +81,7 @@ mat.setTexture("ColorMap", tex);
             </code>
             <h1 style="color: blue;">添加光照至场景</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 DirectionalLight light = new DirectionalLight();
 light.setDirection(new Vector3f(-1, -2, -3));
 
@@ -86,7 +94,7 @@ rootNode.addLight(light);
             </code>
             <h1 style="color: blue;">物理控制器</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 CharacterControl
 RigidBodyControl
 GhostControl
@@ -94,7 +102,7 @@ GhostControl
             </code>
             <h1 style="color: blue;">CharacterControl</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 player = new CharacterControl(CollisionBox, StepHeight);
 player.setJumpSpeed(...);
 player.setFallSpeed(...);
@@ -108,7 +116,7 @@ player,setPhysicsRotation(...);
             </code>
             <h1 style="color: blue;">RigidBodyControl</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 RigidBodyControl obj = new RigidBodyControl();
 obj.setMass(...);
 obj.setCollisionShape(CollisionBox);
@@ -124,7 +132,7 @@ obj.applyImpulse(...);
             </code>
             <h1 style="color: blue;">碰撞箱</h1>
             <code>
-                <pre>
+                <pre class="highlight">
 BoxCollisionShape
 SphereCollisionShape
 CylinderCollisionShape
