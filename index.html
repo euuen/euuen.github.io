@@ -30,6 +30,19 @@
         <main>
             <h1>SNT HOME：你可以法在这里找到你需要的snt</h1>
             <h4>最新一次更新时间2025/1/20</h4>
+            <img id="headimg" src="headimg.jfif" alt="" style="z-index: -1;position: absolute;transition: 1s linear;">
+            <script>
+                var head = document.getElementById("headimg");
+                    head.style.top = "" + Math.random()*300 + "px";
+                    head.style.left = "" + Math.random()*300 + "px";
+                    head.style.width = 100 + Math.random()*500 + "px";
+                setInterval(function(){
+                    var head = document.getElementById("headimg");
+                    head.style.top = "" + Math.random()*300 + "px";
+                    head.style.left = "" + Math.random()*300 + "px";
+                    head.style.width = 100 + Math.random()*500 + "px";
+                },1000);
+            </script>
             <hr>
             <nav>
                 <ul>
@@ -66,7 +79,7 @@
                     </li>
                     <li>
                         <h2 style="color: blueviolet;">🌌计算机语言</h2>
-                        <div style="background-color: #f1f1f3;display: flex; flex-wrap: wrap;border-radius: 25px;">
+                        <div id="test" style="background-color: #f1f1f3;display: flex; flex-wrap: wrap;border-radius: 25px;">
                             <a href="HTML/index.html">HTML</a>
                             <a href="CPP/index.html">C++(太free~~了)</a>
                             <a href="">尝试用flex容器乱打的，是无效链接</a>
@@ -79,6 +92,16 @@
                         </div>
                     </li>
                 </ul>
+                <script>
+                    var a = document.getElementById("test");
+                    var b =  0;
+                    setInterval(function(){
+                        a.style.backgroundColor = "#"+b+"f0000";
+                        b+=1;
+                        if (b >= 9) b=0;
+
+                    }, 30);
+                </script>
             </nav>
             <pre>
 
