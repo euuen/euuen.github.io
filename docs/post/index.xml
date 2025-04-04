@@ -6,7 +6,7 @@
         <description>Recent content in Posts on 一秋落木</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>搭建你的第一个博客</title>
         <link>http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
@@ -133,6 +133,32 @@
 &lt;/div&gt;&lt;p&gt;然后，恭喜你，你也有了自己的评论系统了！！&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Photo by &lt;a href=&#34;https://unsplash.com/@keilahoetzel?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Keila Hötzel&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/gray-and-black-laptop-computer-tJtUvIG3vPI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>怎么就要高考了？！</title>
+        <link>http://localhost:1313/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</link>
+        <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</guid>
+        <description>&lt;h1 id=&#34;怎么就要高考了&#34;&gt;怎么就要高考了？！
+&lt;/h1&gt;&lt;p&gt;没想到转眼间就是即将毕业的高三牲了，这几年感觉也没干什么，结果就要毕业了，感慨万千。不过还是有很多提升的。&lt;/p&gt;
+&lt;h2 id=&#34;技术上的提升&#34;&gt;技术上的提升
+&lt;/h2&gt;&lt;p&gt;最近真的是技术爆炸，两个月的时间学用了两个静态网站生成器，这都要感谢我的好朋友&lt;a class=&#34;link&#34; href=&#34;https://github.com/aaaa0ggmc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;aaaa0ggmc&lt;/a&gt;在过年的时候给我推荐的静态网站生成器，vitepress。我不看不知道，一看吓一跳，网上居然有这么多人居然用vitepress搭建博客，我在GitHub上搜了一下，真的一搜一大把。另外，我在搜twikoo教程的时候，意外闯进了一个博客圈子，第三夏尔。kyo（第三夏尔的博主）的身份让我感到惊奇，我以为是码农，结果居然不是的。而且，kyo住在加拿大的生活让我感觉到很羡慕，她的文字也很清新灵动，让人读了感觉很有活力。&lt;/p&gt;
+&lt;p&gt;但是，我也因此鸽了很久我之前的项目，比如glframework（我自己想自己写的3D图像引擎），所以，我决定这次放假，哎，最后一次放假（来自高三生的无奈），小小更新一下我的glframework。&lt;/p&gt;
+&lt;h2 id=&#34;认识上的提升&#34;&gt;认识上的提升
+&lt;/h2&gt;&lt;p&gt;最近一个西北农林科技大学的招生副主任（2000界我们一中的毕业生，算是校友，师哥吧），给我们做了一个演讲，具体内容我不是很记得了，我只记得一个&lt;strong&gt;先选大学，再选专业&lt;/strong&gt;。它的意思是，让你先考上一个好的大学，虽然现在教育局不准讲985了（都以211称之），但是985，211制度深入人心，某些企业还是会默认先把不是985的人放在985后面审。不是研究生的，先放在研究生后面审。研究生怎么就没用了，到现在还是很有用的。而一般的大学的升学率从统计学的角度讲就是没有985，211的学校高。他建议你先考上好的大学，然后如果自己不喜欢这个专业，你可以转专业，考研换专业。这就是先选大学，再选专业的意思。他说建议来考西北农林，不要因为他的名字就觉得他很不行，其实这所大学还是985，211，升学率也比较高，并且所需分数不用600分，算是性价比比较高的一所大学了。&lt;/p&gt;
+&lt;p&gt;不过呢，还是有很多郁闷的地方。我不知道这是为什么就是越大之后人就越孤独。&lt;/p&gt;
+&lt;h2 id=&#34;孤独我在孤独中成长&#34;&gt;孤独，我在孤独中成长
+&lt;/h2&gt;&lt;p&gt;也许是我喜欢的东西比较小众吧，在加上我的朋友感觉真的很忙，我大部分时间里都是自己一个人在搞自己的东西。&lt;/p&gt;
+&lt;p&gt;我说实话，早已经没有之前玩王者的兴趣了，也没有小时候玩吃鸡的激情了，视频的话，就只看一下B站，不过也不是很喜欢看。可能唯一有兴趣的就是写写项目，在博客里发发牢骚。&lt;/p&gt;
+&lt;p&gt;说实话，我还是真的蛮希望有人可以跟我讲讲话的。不过这对于跟我聊天的人要求那可真的就太高了。。。因为我喜欢的东西，99%的人都不知道，他们都会觉得世界上居然还有这个东西，或者就是不了解不清楚。&lt;/p&gt;
+&lt;p&gt;总结一句话就是，我喜欢的东西，别人不喜欢；别人喜欢的东西，我不喜欢。&lt;/p&gt;
+&lt;h2 id=&#34;焦虑与希望并存&#34;&gt;焦虑与希望并存
+&lt;/h2&gt;&lt;p&gt;随着科技的发展，Deepseek，Manus等一众AI横空出世，我用了一下还真的（deepseek）很强。这让我又焦虑又高兴。焦虑的是，我怕AI可能会取代我的工作，写代码呗（不过目前看来还是不太可能），高兴的是，我实现项目的效率会高到离谱。说实话这挺矛盾的。不过我还是保持乐观的态度吧，AI不会轻易取代我们。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;在车上码字真的很累qwq&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         
