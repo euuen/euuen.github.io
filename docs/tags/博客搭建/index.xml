@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客搭建 on 一秋落木</title>
-        <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+        <link>https://demo.stack.jimmycai.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
         <description>Recent content in 博客搭建 on 一秋落木</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>搭建你的第一个博客</title>
-        <link>http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 搭建你的第一个博客" /&gt;&lt;h1 id=&#34;搭建你的第一个博客&#34;&gt;搭建你的第一个博客
+        <guid>https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 搭建你的第一个博客" /&gt;&lt;h1 id=&#34;搭建你的第一个博客&#34;&gt;搭建你的第一个博客
 &lt;/h1&gt;&lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;说实话，我也是刚刚才会搭建Hugo博客，然后就来教别人了。这个的感觉就很像这个博主&lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;失踪的博客&lt;/a&gt;的开头一样。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;以windows操作系统为例，我们需要先下载Chocolatey软件包管理器（&lt;a class=&#34;link&#34; href=&#34;https://chocolatey.org/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击此链接前往下载地址&lt;/a&gt;），然后复制此行命令。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco.png&#34;
 	width=&#34;1512&#34;
 	height=&#34;629&#34;
-	srcset=&#34;http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_50a3e5b4e0876d51.png 480w, http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_43f618495094aa55.png 1024w&#34;
+	srcset=&#34;https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_50a3e5b4e0876d51.png 480w, https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_43f618495094aa55.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

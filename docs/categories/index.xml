@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 一秋落木</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://demo.stack.jimmycai.com/categories/</link>
         <description>Recent content in Categories on 一秋落木</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 05 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>生活记录</title>
-        <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</link>
+        <link>https://demo.stack.jimmycai.com/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</link>
         <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</guid>
+        <guid>https://demo.stack.jimmycai.com/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</guid>
         <description></description>
         </item>
         <item>
         <title>博客搭建</title>
-        <link>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+        <link>https://demo.stack.jimmycai.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
         <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
-        <description>&lt;img src="http://localhost:1313/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 博客搭建" /&gt;</description>
+        <guid>https://demo.stack.jimmycai.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 博客搭建" /&gt;</description>
         </item>
         
     </channel>
