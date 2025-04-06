@@ -50,17 +50,20 @@ hugo server
 
 ## 部署到Github
 
-你下好了这个模板后，自带Github的workflow action部署文件，基本上不用管什么，作者算是有心了。但是你可能还需要修改一个地方，如果你的默认分支是其他的不是master，比如是main，你应该把此文件`.github/workflows/deploy.yml`中的关于分支部分的代码改为如下所示的代码
+> 可能是stack-starter的deploy文件有点小问题，或者是我太菜了没有调好。反正只能部署一次，然后我push上去GitHub后就不能更新。所以只能用这个折中的方法。
 
-```yml
-on:
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
+打开你的GitHub repo，然后找到settings，翻到Pages这一页面。选择Source为Deploy from a branch。选择你的主分支，然后选择/docs文件夹。
+
+然后翻到你的Hugo项目的config文件`config.toml`，加上这一行`publishDir = "docs"`。如下
+
+```toml
+baseurl = "https://euuen.github.io/"
+languageCode = "zh-cn"
+title = "一秋落木"
+publishDir = "docs"
 ```
 
-然后把你的hugo push到你的Github仓库上
+然后就可以了。
 
 ## 部署Giscus评论系统
 

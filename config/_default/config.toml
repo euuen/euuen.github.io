@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://demo.stack.jimmycai.com"
+baseurl = "https://euuen.github.io/"
 languageCode = "zh-cn"
 title = "一秋落木"
 publishDir = "docs"

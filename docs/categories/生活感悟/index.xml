@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>生活感悟 on 一秋落木</title>
+        <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/</link>
+        <description>Recent content in 生活感悟 on 一秋落木</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>贫穷使得我无知</title>
+        <link>http://localhost:1313/p/%E8%B4%AB%E7%A9%B7%E4%BD%BF%E5%BE%97%E6%88%91%E6%97%A0%E7%9F%A5/</link>
+        <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E8%B4%AB%E7%A9%B7%E4%BD%BF%E5%BE%97%E6%88%91%E6%97%A0%E7%9F%A5/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

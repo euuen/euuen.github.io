@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on 一秋落木</title>
-        <link>https://demo.stack.jimmycai.com/post/</link>
+        <link>http://localhost:1313/post/</link>
         <description>Recent content in Posts on 一秋落木</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 05 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>搭建你的第一个博客</title>
-        <link>https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+        <link>http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 搭建你的第一个博客" /&gt;&lt;h1 id=&#34;搭建你的第一个博客&#34;&gt;搭建你的第一个博客
+        <guid>http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 搭建你的第一个博客" /&gt;&lt;h1 id=&#34;搭建你的第一个博客&#34;&gt;搭建你的第一个博客
 &lt;/h1&gt;&lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;说实话，我也是刚刚才会搭建Hugo博客，然后就来教别人了。这个的感觉就很像这个博主&lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;失踪的博客&lt;/a&gt;的开头一样。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;以windows操作系统为例，我们需要先下载Chocolatey软件包管理器（&lt;a class=&#34;link&#34; href=&#34;https://chocolatey.org/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击此链接前往下载地址&lt;/a&gt;），然后复制此行命令。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco.png&#34;
 	width=&#34;1512&#34;
 	height=&#34;629&#34;
-	srcset=&#34;https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_50a3e5b4e0876d51.png 480w, https://demo.stack.jimmycai.com/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_43f618495094aa55.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_50a3e5b4e0876d51.png 480w, http://localhost:1313/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_43f618495094aa55.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -66,24 +66,25 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;他会提示你访问一个链接，默认是http://localhost:1313/。如果能看到的话就说明你成功了&lt;/p&gt;
 &lt;h2 id=&#34;部署到github&#34;&gt;部署到Github
-&lt;/h2&gt;&lt;p&gt;你下好了这个模板后，自带Github的workflow action部署文件，基本上不用管什么，作者算是有心了。但是你可能还需要修改一个地方，如果你的默认分支是其他的不是master，比如是main，你应该把此文件&lt;code&gt;.github/workflows/deploy.yml&lt;/code&gt;中的关于分支部分的代码改为如下所示的代码&lt;/p&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;可能是stack-starter的deploy文件有点小问题，或者是我太菜了没有调好。反正只能部署一次，然后我push上去GitHub后就不能更新。所以只能用这个折中的方法。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;打开你的GitHub repo，然后找到settings，翻到Pages这一页面。选择Source为Deploy from a branch。选择你的主分支，然后选择/docs文件夹。&lt;/p&gt;
+&lt;p&gt;然后翻到你的Hugo项目的config文件&lt;code&gt;config.toml&lt;/code&gt;，加上这一行&lt;code&gt;publishDir = &amp;quot;docs&amp;quot;&lt;/code&gt;。如下&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;branches&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;main]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pull_request&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;branches&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;main]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;baseurl&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://euuen.github.io/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;languageCode&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;zh-cn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;一秋落木&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;publishDir&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;docs&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后把你的hugo push到你的Github仓库上&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;然后就可以了。&lt;/p&gt;
 &lt;h2 id=&#34;部署giscus评论系统&#34;&gt;部署Giscus评论系统
 &lt;/h2&gt;&lt;p&gt;确保你的项目开了Discussions功能，然后前往giscus官网，按照他的提示输入。你可以参考Vitepress部署Giscus的方法。这里不在赘述了，网上很多教程。获取到相应的参数就行&lt;/p&gt;
 &lt;p&gt;然后找到这个文件&lt;code&gt;/config/_defalut/params.toml&lt;/code&gt;，把comment项改为&lt;/p&gt;
@@ -137,10 +138,10 @@
         </item>
         <item>
         <title>清明小结</title>
-        <link>https://demo.stack.jimmycai.com/p/%E6%B8%85%E6%98%8E%E5%B0%8F%E7%BB%93/</link>
+        <link>http://localhost:1313/p/%E6%B8%85%E6%98%8E%E5%B0%8F%E7%BB%93/</link>
         <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/%E6%B8%85%E6%98%8E%E5%B0%8F%E7%BB%93/</guid>
+        <guid>http://localhost:1313/p/%E6%B8%85%E6%98%8E%E5%B0%8F%E7%BB%93/</guid>
         <description>&lt;h1 id=&#34;清明小结&#34;&gt;清明小结
 &lt;/h1&gt;&lt;h2 id=&#34;一个忙碌的清明&#34;&gt;一个忙碌的清明
 &lt;/h2&gt;&lt;p&gt;最近搞的项目有点多，比如glframework，博客，还有学习网站（yida，和朋友一起搞的）&lt;/p&gt;
@@ -160,10 +161,10 @@
         </item>
         <item>
         <title>怎么就要高考了？！</title>
-        <link>https://demo.stack.jimmycai.com/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</link>
+        <link>http://localhost:1313/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</link>
         <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</guid>
+        <guid>http://localhost:1313/p/%E6%80%8E%E4%B9%88%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86/</guid>
         <description>&lt;h1 id=&#34;怎么就要高考了&#34;&gt;怎么就要高考了？！
 &lt;/h1&gt;&lt;p&gt;没想到转眼间就是即将毕业的高三牲了，这几年感觉也没干什么，结果就要毕业了，感慨万千。不过还是有很多提升的。&lt;/p&gt;
 &lt;h2 id=&#34;技术上的提升&#34;&gt;技术上的提升
@@ -183,6 +184,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;在车上码字真的很累qwq&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
+        </item>
+        <item>
+        <title></title>
+        <link>http://localhost:1313/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/</guid>
+        <description></description>
         </item>
         
     </channel>
