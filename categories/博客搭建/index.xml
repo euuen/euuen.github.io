@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客搭建 on 一秋落木</title><link>https://euuen.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link><description>Recent content in 博客搭建 on 一秋落木</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://euuen.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>搭建你的第一个博客</title><link>https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><guid>https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid><description>&lt;img src="https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/keila-hotzel-tJtUvIG3vPI-unsplash.jpg" alt="Featured image of post 搭建你的第一个博客" />&lt;h1 id="搭建你的第一个博客">搭建你的第一个博客
+&lt;/h1>&lt;h2 id="安装hugo">安装Hugo
+&lt;/h2>&lt;blockquote>
+&lt;p>说实话，我也是刚刚才会搭建Hugo博客，然后就来教别人了。这个的感觉就很像这个博主&lt;a class="link" href="https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/" target="_blank" rel="noopener"
+>失踪的博客&lt;/a>的开头一样。&lt;/p>&lt;/blockquote>
+&lt;p>以windows操作系统为例，我们需要先下载Chocolatey软件包管理器（&lt;a class="link" href="https://chocolatey.org/install" target="_blank" rel="noopener"
+>点击此链接前往下载地址&lt;/a>），然后复制此行命令。&lt;/p>
+&lt;p>&lt;img src="https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco.png"
+width="1512"
+height="629"
+srcset="https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_50a3e5b4e0876d51.png 480w, https://euuen.github.io/p/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/choco_hu_43f618495094aa55.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="240"
+data-flex-basis="576px"
+>&lt;/p>
+&lt;p>按住&lt;code>win&lt;/code>+&lt;code>X&lt;/code>键，选择以管理员模式运行powershell，运行此命令。&lt;/p>
+&lt;blockquote>
+&lt;p>官方说不要用Windows Powershell，要用Powershell，说它们是两个不同的东西，但是我用了Windows Powershell却并没有出现任何的报错。目前还不清楚这其中的原因。&lt;/p>&lt;/blockquote>
+&lt;p>然后执行安装hugo的命令&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">choco install hugo-extended
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>安装完以后可以用下面的命令查看hugo版本，检测是否安装成功&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="安装hugo-stack主题">安装Hugo Stack主题
+&lt;/h2>&lt;p>Hugo的主题是需要自己选的。在Hugo的众多主题里面，我特别喜欢Stack的Card-Style风格，所以我就使用了Hugo Stack主题。我们可以前往Github下载Hugo Stack的&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>模板&lt;/a>，然后自己修改。&lt;/p>
+&lt;p>修改好了后在文件夹下运行此命令&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>他会提示你访问一个链接，默认是http://localhost:1313/。如果能看到的话就说明你成功了&lt;/p>
+&lt;h2 id="部署到github">部署到Github
+&lt;/h2>&lt;blockquote>
+&lt;p>可能是stack-starter的deploy文件有点小问题，或者是我太菜了没有调好。反正只能部署一次，然后我push上去GitHub后就不能更新。所以只能用这个折中的方法。&lt;/p>&lt;/blockquote>
+&lt;p>打开你的GitHub repo，然后找到settings，翻到Pages这一页面。选择Source为Deploy from a branch。选择你的主分支，然后选择/docs文件夹。&lt;/p>
+&lt;p>然后翻到你的Hugo项目的config文件&lt;code>config.toml&lt;/code>，加上这一行&lt;code>publishDir = &amp;quot;docs&amp;quot;&lt;/code>。如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">baseurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://euuen.github.io/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">languageCode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;zh-cn&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;一秋落木&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">publishDir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;docs&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后就可以了。&lt;/p>
+&lt;h2 id="部署giscus评论系统">部署Giscus评论系统
+&lt;/h2>&lt;p>确保你的项目开了Discussions功能，然后前往giscus官网，按照他的提示输入。你可以参考Vitepress部署Giscus的方法。这里不在赘述了，网上很多教程。获取到相应的参数就行&lt;/p>
+&lt;p>然后找到这个文件&lt;code>/config/_defalut/params.toml&lt;/code>，把comment项改为&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">comments&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">provider&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;giscus&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后把giscus那项的参数都填上，不要忘记在加上enabled = true，如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">comments&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">giscus&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">repo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;euuen/euuen.github.io&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">repoID&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;R_kgDONltvFw&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">category&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Announcements&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">categoryID&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;DIC_kwDONltvF84CovmA&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">mapping&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;pathname&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">theme&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;preferred_color_scheme&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">lang&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;zh-CN&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">loading&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;lazy&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">reactionsEnabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">emitMetadata&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后，恭喜你，你也有了自己的评论系统了！！&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a href="https://unsplash.com/@keilahoetzel?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Keila Hötzel&lt;/a> on &lt;a href="https://unsplash.com/photos/gray-and-black-laptop-computer-tJtUvIG3vPI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash&lt;/a>&lt;/p>&lt;/blockquote></description></item></channel></rss>
